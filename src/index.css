@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --custom-primary: #c49b63;
+  --custom-dark: black;
+  --custom-light: gray;
+  --custom-white: white;
+}
